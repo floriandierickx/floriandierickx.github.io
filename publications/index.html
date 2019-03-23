@@ -3,18 +3,29 @@ layout: default
 title: Florian Dierickx - Publications
 --- -->
 
+<!doctype html>
+</body>
 
-<!-- SOURCE: https://github.com/vkaravir/bib-publication-list -->
-<script src="../build/jquery.min.js"></script>
-<script src="../build/bib-list-min.js"></script>
+</html>
+<html>
 
-<div class="blurb">
-	<h1>Publications</h1>
-    <link rel="stylesheet" href="bib-publication-list.css"/>
-</div><!-- /.blurb -->
+<head>
+    <title>Testing bibtex</title>
+    <link rel="stylesheet" href="../css/bibtexify.css" />
+</head>
 
-<!-- bibtex source hidden by default, show it if JS disabled -->
-<!-- <noscript>
+<body>
+
+    <!-- SOURCE: https://github.com/vkaravir/bib-publication-list -->
+    <script src="../build/jquery.min.js"></script>
+    <script src="../build/bib-list-min.js"></script>
+
+    <div class="blurb">
+        <h1>Publications</h1>
+    </div><!-- /.blurb -->
+
+    <!-- bibtex source hidden by default, show it if JS disabled -->
+    <!-- <noscript>
     <style>
         #bibtex {
             display: block;
@@ -32,16 +43,19 @@ title: Florian Dierickx - Publications
     </pre>
 </div> -->
 
-<div class="blurb">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script type="text/javascript" src="../build/bib-list-min.js"></script>
-        <script type="text/javascript" src="../build/bib-list.js"></script>
-        <link rel="stylesheet" href="bib-publication-list.css"/>
-        <!-- <link rel="stylesheet" href="../src/bib-publication-list.css" type="text/css" /> -->
-		<script type="text/javascript">
-		    $(document).ready(function() {
-            	bibtexify("personal.bib", "pubTable", {'tweet': 'FlorianDRX'});
+    <script type="text/javascript" src="../build/bib-list-min.js"></script>
+    <script type="text/javascript" src="../build/bib-list.js"></script>
+    <link rel="stylesheet" href="bib-publication-list.css" />
+    <!-- <link rel="stylesheet" href="../src/bib-publication-list.css" type="text/css" /> -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            bibtexify("personal.bib", "pubTable", {
+                'tweet': 'FlorianDRX'
+            });
             //WITH #bibtex text in html: bibtexify("#bibtex", "pubTable", {'tweet': 'FlorianDRX'});
-    		});
-		</script>
-</div><!-- /.blurb -->
+        });
+    </script>
+</body>
+
+</html>
