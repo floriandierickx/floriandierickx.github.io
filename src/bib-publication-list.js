@@ -1,4 +1,3 @@
-// Source: https://github.com/royhaast/royhaast.github.io/blob/master/src/bib-publication-list.js
 
 var bibtexify = (function($) {
     // helper function to "compile" LaTeX special characters to HTML
