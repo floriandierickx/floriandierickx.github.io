@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-				    <li><a href="/publications">Publications</a></li>
-				    <li><a href="/library">Library</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+<html>
 
-			{{ content }}
+<head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <!-- newly added -->
+    <link rel="stylesheet" type="text/css" href="/css/bib-publication-list.css" />
+    <!-- stop newly added -->
+</head>
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:floriandierickx@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/floriandierickx">github.com/floriandierickx</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/cv">CV</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/publications">Publications</a></li>
+            <li><a href="/library">Library</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- newly added: -->
+        <script src="/build/jquery.min.js"></script>
+        <script src="/build/bib-list-min.js"></script>
+        <table id="pubTable" class="display"></table>
+        <pre id="bibtex">@article{Karavirta:JVLCTaxonomy,
+   title = {A comprehensive taxonomy of algorithm animation languages},
+   journal = {Journal of Visual Languages \& Computing},
+   volume = {20},
+   number = {1},
+   pages = {1--22},
+   year = {2010},
+   issn = {1045-926X},
+   doi = {DOI: 10.1016/j.jvlc.2009.09.001},
+   author = {Ville Karavirta and Ari Korhonen and Lauri Malmi and Thomas Naps}
+}
+</pre>
+        bibtexify("#bibtex", "pubTable");
+        <!-- stop newly added -->
+
+        {{ content }}
+
+    </div><!-- /.container -->
+    <footer>
+        <ul>
+            <li><a href="mailto:floriandierickx@gmail.com">email</a></li>
+            <li><a href="https://github.com/floriandierickx">github.com/floriandierickx</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
