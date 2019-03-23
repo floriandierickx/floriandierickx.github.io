@@ -1,45 +1,51 @@
----
-layout: default
-title: Florian Dierickx - Publications
----
-    <div class="blurb">
-        <h1>Publications</h1>
-    </div><!-- /.blurb -->
+<!DOCTYPE html>
+<html>
 
-    <!-- SOURCE: https://github.com/vkaravir/bib-publication-list -->
-    <link rel="stylesheet" href="../css/bibtexify.css" />
-    <script src="../build/jquery.min.js"></script>
-    <script src="../build/bib-list-min.js"></script>
+<head>
+    <title>Florian Dierickx - Publications</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
 
-    <!-- bibtex source hidden by default, show it if JS disabled -->
-    <!-- <noscript>
-    <style>
-        #bibtex {
-            display: block;
-        }
-    </style>
-</noscript>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/cv">CV</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/publications">Publications</a></li>
+            <li><a href="/library">Library</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+		<div class="blurb">
+			<h1>Publications</h1>
+		</div><!-- /.blurb -->
+    </div><!-- /.container -->
+	    <noscript>
+	      <!-- bibtex source hidden by default, show it if JS disabled -->
+	      <style>
+	      #bibtex { display: block;}
+	      </style>
+	    </noscript>
+			<table id="pubTable" class="display"></table>
+	        <pre id="bibtex" style="display:none;">
+				INSERT ORIGINAL BIBTEX HERE
+	</pre>
+	  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script type="text/javascript" src="../build/bib-list.js"></script>
+			<script type="text/javascript">
+			    $(document).ready(function() {
+	        	bibtexify("personal-betterbibtex.bib", "pubTable", {'tweet': 'FlorianDRX'});
+	    		});
+			</script>
+    <footer>
+        <ul>
+            <li><a href="mailto:floriandierickx@gmail.com">email</a></li>
+            <li><a href="https://github.com/floriandierickx">github.com/floriandierickx</a></li>
+        </ul>
+    </footer>
+</body>
 
-<div id="text">
-    <table id="pubTable" class="display"></table>
-    <pre id="bibtex" style="display:none;">
-					@article{...bibtex-refences
-                    ...
-                    here
-                    ...
-    </pre>
-</div> -->
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="../build/bib-list-min.js"></script>
-    <script type="text/javascript" src="../build/bib-list.js"></script>
-    <link rel="stylesheet" href="bib-publication-list.css" />
-    <!-- <link rel="stylesheet" href="../src/bib-publication-list.css" type="text/css" /> -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            bibtexify("personal.bib", "pubTable", {
-                'tweet': 'FlorianDRX'
-            });
-            //WITH #bibtex text in html: bibtexify("#bibtex", "pubTable", {'tweet': 'FlorianDRX'});
-        });
-    </script>
+</html>
