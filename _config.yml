@@ -30,12 +30,12 @@ navigation:
   first-level:
     - text: 27/02/19 - Quantitative Easing for the Climate
       url: /twitter/qe-climate/index.html
-    - text: 18/02/19 - [Dis]functioning EU ETS (English)
-      url: /twitter/eu-ets-en/index.html
-    - text: 31/01/19 - [Dis]functioning EU ETS (Dutch)
-      url: /twitter/eu-ets/index.html
     - text: 19/02/19 - Bruegel Debate on Decarbonization Policies
       url: /twitter/bruegel/index.html
+    - text: 18/02/19 - [Dys]functioning EU ETS (English)
+      url: /twitter/eu-ets-en/index.html
+    - text: 31/01/19 - [Dys]functioning EU ETS (Dutch)
+      url: /twitter/eu-ets/index.html
     - text: 27/11/18 - Programmation pluriannuelle de l’énergie Jancovici [FR]
       url: /twitter/jancovici/index.html
     - text: 27/11/18 - CMCC & ETH Low-Carbon Finance Webinar
