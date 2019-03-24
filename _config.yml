@@ -22,7 +22,7 @@ navigation:
      # second-level:
      #   - text: Second Level
      #     url: second-level-link.html
-    - text: Climate Change & Central Banking
+    - text: Climate Change & Finance
       url: /eib-consultation/cc-cb/index.html
 - root: Twitter Threads
   url: /twitter
