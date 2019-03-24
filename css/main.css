@@ -297,8 +297,12 @@ body {
 li {
     font-family:'Helvetica', 'Sans-Serif';
 	list-style: inside;
-	margin: 20px 0;
+	margin: 12px 0;
 	indent: 10px;
+}
+.paragraph-list {
+font-family: "Times New Roman", 'Helvetica','Sans-Serif';
+font-size: 125%;
 }
 a {
     text-decoration: none;
