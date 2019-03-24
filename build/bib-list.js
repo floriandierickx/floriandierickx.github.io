@@ -2538,7 +2538,8 @@ var bibtexify = (function($) {
                 itemStr += bib2html.tweet(entryData, bib);
             }
             return itemStr.replace(/undefined[,.]?/g,
-                                   '<span class="undefined">missing<\/span>');
+									// EDIT HERE TO ADD 'MISSING'
+                                   '<span class="undefined"><\/span>');
         },
         // converts the given author data into HTML
         authors2html: function(authorData) {

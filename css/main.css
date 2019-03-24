@@ -1,3 +1,115 @@
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+
+/*--NAVIGATION-->*/
+
+.navigation {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    list-style-type:none;
+	width:100%;
+}
+.navigation li {
+    float: left;
+    position: relative;
+	z-index: 999;
+    list-style: none;
+}
+.navigation li a {
+	z-index: 999;
+	float: left;
+    color: #333;
+    font-weight: normal;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 8px 0px;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height:25px;
+}
+.navigation ul li a {
+	z-index: 999;
+	float: left;
+    border-radius: 0;
+    padding: 5px 5px;
+    margin:0px;
+    font-weight: normal;
+    text-transform: initial;
+}
+.navigation li > ul {
+    background:white;
+    position:absolute;
+    list-style-type: none;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+    border: Opx solid #666;
+	opacity: 0.9;
+    border-radius: Opx;
+    left:0;
+    display: none;
+    min-width: 100%;
+}
+.navigation li:hover > ul {
+    display: block;
+    list-style: none;
+}
+.navigation li ul li {
+    display: block;
+    float: none;
+    margin-left: 0;
+}
+.navigation li ul li a:hover {
+    border-radius: 0;
+    color: #444;
+    background: #eeeeee;
+}
+.navigation > li a:hover, .navigation li > ul:hover + a, .navigation li.current > a {
+    color: #86569A;
+}
+.navigation li.current > a {
+	float: left;
+    font-weight: bold
+}
+.navigation li a[href^=http]:after {
+    font-family:"fontello";
+    font-style: normal;
+    font-weight: normal;
+    content:'\e9c8';
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: Oem;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: Oem;
+}
+.navigation .second-level {
+    left: 100%;
+    top: 0;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+	float: left;
+    display: inline;
+    margin-right: 30px;
+}
+
 /*--CSS FOR TABLE:-->*/
 
 .dataTables_filter {
@@ -182,31 +294,25 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
 li {
     font-family:'Helvetica', 'Sans-Serif';
 	list-style: inside;
-	margin: 10px 0;
+	margin: 20px 0;
 	indent: 10px;
 }
 a {
     text-decoration: none;
     color: #999;
 }
-a:hover {
+/*a:hover {
     text-decoration: underline;
-}
+}*/
 h1 {
     font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -215,10 +321,33 @@ p {
     color: #333;
 }
 footer {
+	background-size: 100% auto;
+	background-position: center top;
+	background-repeat: no-repeat;
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	margin: 0 auto;
+	bottom: 0;
+	left: 0;
+    font-size: 0.9em;
+	text-indent: 3%;
+	text-align: center;
 }
-
+.bannerImage {
+    width: 100%;
+    height: auto;
+    opacity:0;
+}
+.footlink {
+    color: #adbacc !important;
+}
+.footlink:visited
+{
+    background-color: #adbacc; 
+}
+.footlink:hover
+{
+    color: #adbacc; 
+}
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;

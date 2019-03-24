@@ -3,3 +3,40 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-sitemap
+
+navigation:
+- root: Home
+  url: /
+- root: CV
+  url: /cv
+- root: Blog
+  url: /blog
+- root: Publications
+  url: /publications
+- root: EIB Climate & Energy Consultation
+  url: /eib-consultation
+  icon: icon-you-want-1
+  first-level:
+    - text: EIB Documentation
+      url: /eib-consultation/eib/index.html
+     # second-level:
+     #   - text: Second Level
+     #     url: second-level-link.html
+    - text: Climate Change & Central Banking
+      url: /eib-consultation/cc-cb/index.html
+- root: Twitter Threads
+  url: /twitter
+  icon: /icons/twitter.jpg
+  first-level:
+    - text: 27/02/19 - Quantitative Easing for the Climate
+      url: /twitter/qe-climate/index.html
+    - text: 18/02/19 - [Dis]functioning EU ETS (English)
+      url: /twitter/eu-ets-en/index.html
+    - text: 31/01/19 - [Dis]functioning EU ETS (Dutch)
+      url: /twitter/eu-ets/index.html
+    - text: 19/02/19 - Bruegel Debate on Decarbonization Policies
+      url: /twitter/bruegel/index.html
+    - text: 27/11/18 - Programmation pluriannuelle de l’énergie Jancovici [FR]
+      url: /twitter/jancovici/index.html
+    - text: 27/11/18 - CMCC & ETH Low-Carbon Finance Webinar
+      url: /twitter/cmcc/index.html
