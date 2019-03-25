@@ -1,0 +1,2 @@
+- Find and replace all fonts in css: regex search and replace with font-family:(?:.*);
+- Run local jekyll site: bundle exec jekyll serve
