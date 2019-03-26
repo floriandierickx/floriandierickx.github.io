@@ -1,2 +1,7 @@
 - Find and replace all fonts in css: regex search and replace with font-family:(?:.*);
 - Run local jekyll site: bundle exec jekyll serve
+- Change spacing between menu items: change 'margin-right' in nav ul li, footer ul li {
+
+
+Notes:
+- In-site citations: see http://weinan.io/2017/03/06/using-papers-and-manuscripts-to-do-correct-citation.html

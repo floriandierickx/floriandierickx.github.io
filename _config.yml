@@ -13,17 +13,17 @@ navigation:
   url: /blog
 - root: Publications
   url: /publications
-- root: EIB Climate & Energy Consultation
-  url: /eib-consultation
-  icon: icon-you-want-1
+- root: Library
+  url: /library
   first-level:
-    - text: EIB Documentation
-      url: /eib-consultation/eib/index.html
-     # second-level:
-     #   - text: Second Level
-     #     url: second-level-link.html
-    - text: Climate Change & Finance
-      url: /eib-consultation/cc-cb/index.html
+    - text: Belgian Climate Policy
+      url: /library/belgium/index.html
+    - text: Belgian Energy Policy
+      url: /library/belgium-e/index.html
+    - text: 100 Percent Renewables
+      url: /library/renewables/index.html
+    - text: Integrated Assessment Models
+      url: /library/iam/index.html
 - root: Twitter Threads
   url: /twitter
   icon: /icons/twitter.jpg
@@ -40,3 +40,14 @@ navigation:
       url: /twitter/jancovici/index.html
     - text: 27/11/18 - CMCC & ETH Low-Carbon Finance Webinar
       url: /twitter/cmcc/index.html
+- root: EIB Climate & Energy
+  url: /eib-consultation
+  icon: icon-you-want-1
+  first-level:
+    - text: EIB Documentation
+      url: /eib-consultation/eib/index.html
+     # second-level:
+     #   - text: Second Level
+     #     url: second-level-link.html
+    - text: Climate Change & Finance
+      url: /eib-consultation/cc-cb/index.html
