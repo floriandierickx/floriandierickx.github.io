@@ -20,10 +20,12 @@ navigation:
       url: /library/belgium/index.html
     - text: Belgian Energy Policy
       url: /library/belgium-e/index.html
-    - text: 100 Percent Renewables
+    - text: 100 % Renewables
       url: /library/renewables/index.html
     - text: Integrated Assessment Models
       url: /library/iam/index.html
+    - text: EU ETS & Carbon Leakage List
+      url: /library/eu-ets/index.html
 - root: Twitter Threads
   url: /twitter
   icon: /icons/twitter.jpg
