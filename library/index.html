@@ -9,7 +9,14 @@ title: Library
 			Library
 		</h1>
 	</div><!-- /.blurb -->
-	<script src="https://bibbase.org/show?bib=https://github.com/floriandierickx/bibbase.github.io/blob/master/library-jabref.bib&jsonp=0"></script>
+	<table id="pubTable" class="display"></table>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+	<script type="text/javascript" src="../build/bib-list.js"></script> 
+	<script type="text/javascript">
+	$(document).ready(function() {
+	  	bibtexify("empty.bib", "pubTable", {'tweet': 'FlorianDRX'});
+	});
+	</script>
 	<br>
 </div>
 
