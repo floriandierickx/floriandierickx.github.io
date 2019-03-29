@@ -26,6 +26,8 @@ navigation:
       url: /library/iam/index.html
     - text: EU ETS & Carbon Leakage List
       url: /library/eu-ets/index.html
+- root: Agenda
+  url: /agenda
 - root: Twitter Threads
   url: /twitter
   icon: /icons/twitter.jpg
