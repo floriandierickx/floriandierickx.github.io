@@ -1,8 +1,10 @@
 name: Florian Dierickx
+author: Florian Dierickx
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 
 navigation:
 - root: Home
