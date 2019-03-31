@@ -5,6 +5,8 @@ permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  
+url: http://floriandierickx.github.io
 
 navigation:
 - root: Home
