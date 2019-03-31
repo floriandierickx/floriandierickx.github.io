@@ -13,6 +13,9 @@ navigation:
   url: /cv
 - root: Blog
   url: /blog
+  first-level:
+    - text: Tags
+      url: /blog/tags/index.html
 - root: Publications
   url: /publications
 - root: Library

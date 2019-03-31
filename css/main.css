@@ -1,4 +1,17 @@
 /*--------->*/
+/*--TAGS--->*/
+/*--------->*/
+
+.tag {
+display: inline-block;
+background: rgba(106,159,181,0.15);
+padding: 0 .5rem;
+margin-right: 0;
+border-radius: 4px;
+font-size: 90%;
+}
+
+/*--------->*/
 /*--ICONS-->*/
 /*--------->*/
 
