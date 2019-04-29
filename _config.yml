@@ -33,6 +33,8 @@ navigation:
       url: /library/iam/index.html
     - text: EU ETS & Carbon Leakage List
       url: /library/eu-ets/index.html
+    - text: Copernicus Climate Change
+      url: /library/copernicus/index.html
 - root: Agenda
   url: /agenda
 - root: Twitter Threads

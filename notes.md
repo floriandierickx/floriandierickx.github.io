@@ -13,6 +13,9 @@
 	- Start: https://fontawesome.com/start
 	- Look for icons: https://fontawesome.com/icons/
 	- Include href link, around icon: <a href="http://....." target="_blank">ICON <i> LINK </a>
+		
+## How To's
+- Include dynamic iframe: http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html
 
 ## Jekyll Plugins
 - Jekyll plugins overview: https://github.com/planetjekyll/awesome-jekyll-plugins
