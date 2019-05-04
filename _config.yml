@@ -41,6 +41,8 @@ navigation:
   url: /twitter
   icon: /icons/twitter.jpg
   first-level:
+    - text: 04/05/19 - EU Water Stress [FR/BE case & Copernicus ECMWF forecast]
+      url: /twitter/water/index.html
     - text: 27/02/19 - Quantitative Easing for the Climate
       url: /twitter/qe-climate/index.html
     - text: 19/02/19 - Bruegel Debate on Decarbonization Policies
