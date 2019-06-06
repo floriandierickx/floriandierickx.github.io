@@ -9,10 +9,11 @@
 ## Formatting
 - Find and replace all **fonts in css**: regex search and replace with font-family:(?:.*);
 - Change **spacing between menu items**: change 'margin-right' in nav ul li, footer ul li {
-- **Font awesome** inclusion in website:
-	- Start: https://fontawesome.com/start
-	- Look for icons: https://fontawesome.com/icons/
-	- Include href link, around icon: <a href="http://....." target="_blank">ICON <i> LINK </a>
+- **Font awesome** & **Academicons** inclusion in website:
+	- Start: https://fontawesome.com/start or https://jpswalsh.github.io/academicons/ 
+	- Look for icons: https://fontawesome.com/icons/ 
+		- **Font Awesome**: Include href link, around icon: <a href="http://....." target="_blank">ICON <i> LINK </a>
+		- **Academicons**: 
 		
 ## How To's
 - Include dynamic iframe: http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html
