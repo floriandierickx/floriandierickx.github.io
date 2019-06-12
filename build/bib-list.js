@@ -2537,6 +2537,7 @@ var bibtexify = (function($) {
             if (bib.options.tweet && entryData.url) {
                 itemStr += bib2html.tweet(entryData, bib);
             }
+			itemStr += bib2html.altmetric(entryData);
             return itemStr.replace(/undefined[,.]?/g,
 									// EDIT HERE TO ADD 'MISSING'
                                    '<span class="undefined"><\/span>');
@@ -2614,6 +2615,15 @@ var bibtexify = (function($) {
           itemStr += '" target="_blank">tweet</a>)';
           return itemStr;
         },
+        // adds the altmetric link and the opening div with Altmetric badge
+        altmetric: function(entryData, bib) {
+            var itemStr = '';
+            if (entryData.doi) {
+                itemStr += ' <div data-badge-popover="right" data-badge-type="bar" data-doi="' + entryData.doi + '" class="altmetric-embed" style="display: inline"><\/div>';
+			} 
+			return itemStr;
+		},
+		
         // helper functions for formatting different types of bibtex entries
         inproceedings: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
@@ -2639,8 +2649,9 @@ var bibtexify = (function($) {
         misc: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
                 entryData.title + ". " +
-                ((entryData.howpublished)?entryData.howpublished + ". ":"") +
-                ((entryData.note)?entryData.note + ".":"");
+                ((entryData.howpublished)?entryData.howpublished + ". ":"")
+			    // + ((entryData.note)?entryData.note + ".":"")
+			;
         },
         mastersthesis: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
@@ -2675,8 +2686,9 @@ var bibtexify = (function($) {
                 ((entryData.address)?", " + entryData.address:"") + ". " +
                 ((entryData.organization)? + entryData.organization:"") +
                 ((entryData.organization && entryData.publisher)?", ":"") +
-                (entryData.publisher?entryData.publisher + ". ":"") +
-                (entryData.note?entryData.note:"");
+                (entryData.publisher?entryData.publisher + ". ":"")
+			    // + (entryData.note?entryData.note:"")
+			    ;
         },
         // weights of the different types of entries; used when sorting
         importance: {
