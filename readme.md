@@ -41,7 +41,7 @@ http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html
 		- *twitter: twitter posts
 		- *input-output:
 - Find out where gems are installed (ruby): `gem environment`s
-## Update and maintenance
+## Update and maintenance of Jekyll and Gems
 - Gem (Ruby)
 	- Update gem : 'gem update --system'
 	- Update gems: 'bundle update --all' --> updates all gems in gemfile
@@ -51,4 +51,6 @@ http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html
 # Comments: Discuss
 
 # Online Library + Annotation of Website: bib-list.js, zotero files, annotation and nextcloud upload
+
+
 		
