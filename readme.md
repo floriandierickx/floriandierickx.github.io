@@ -1,27 +1,11 @@
-# Formatting
-## Find and replace fonts in css files
-regex search and replace with font-family:(?:.*);
-## Change spacing between menu items
-change 'margin-right' in nav ul li, footer ul li {
-## Icons (Font Awesome and Academicons)
-- Start: https://fontawesome.com/start or https://jpswalsh.github.io/academicons/ 
-- Look for icons: https://fontawesome.com/icons/ 
-	- **Font Awesome**: Include href link, around icon: <a href="http://....." target="_blank">ICON <i> LINK </a>
-	- **Academicons**: 
-		
-# How To's
-## Include dynamic iframe
-http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html
-
-# Jekyll 
+# Jekyll and website setup
 ## Run local site
-- **Run local jekyll site:** bundle exec jekyll serve
+- **Run local jekyll site:** 'bundle exec jekyll serve'
 ## Jekyll example sites
 - Nice **jekyll example site**: https://amor.cms.hu-berlin.de/~jaeschkr/#
 ## Plugins
 - Jekyll plugins overview: https://github.com/planetjekyll/awesome-jekyll-plugins
 - **In-site citations**: see http://weinan.io/2017/03/06/using-papers-and-manuscripts-to-do-correct-citation.html
-
 ### RSS Feed with blogposts: Jekyll-feed & Jekyll-planet
 - Atom feed inclusion: https://github.com/jekyll/jekyll-feed
 	- OK
@@ -47,10 +31,35 @@ http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html
 	- Update gems: 'bundle update --all' --> updates all gems in gemfile
 	
 # Annotation of Website: hypothes.is
+- Edit of '_layouts/default.html'. See https://github.com/floriandierickx/floriandierickx.github.io/commit/bc61aa0c4dedd016f086eda4e807ff2b196b88c9
 
-# Comments: Discuss
+# Comments integration: Discuss
+- Add script to pages ('_layouts/default.html', ...)
+- See commit https://github.com/floriandierickx/floriandierickx.github.io/commit/9823e711e56f555c64ff44d8f016296b9441bc81
 
-# Online Library + Annotation of Website: bib-list.js, zotero files, annotation and nextcloud upload
+# Publishing of markdown in dynamic html: bookdown in dynamic iframe
+- Integration commit: https://github.com/floriandierickx/floriandierickx.github.io/commit/3f0528db235504020757c46bd8751769a2e9f207
+- Inclusion of iframe: http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html (for https://floriandierickx.github.io/library/copernicus/index.html)
+
+# Online Library with Altmetric Badges+ Annotation of Pdfs: bib-list.js, zotero files, hypoethes.is and nextcloud upload
+## Online library: bib-list.js
+- First integration: 
+## Integration of altmetric badges in literature list
+- See https://github.com/floriandierickx/floriandierickx.github.io/commit/faba83911807f5807d280c58afce5de2000fcef4
+## 
+
+# General website formatting
+## Find and replace fonts in css files
+regex search and replace with font-family:(?:.*);
+## Change spacing between menu items
+change 'margin-right' in nav ul li, footer ul li {
+## Icons (Font Awesome and Academicons)
+- Start: https://fontawesome.com/start or https://jpswalsh.github.io/academicons/ 
+- Look for icons: https://fontawesome.com/icons/ 
+	- **Font Awesome**: Include href link, around icon: <a href="http://....." target="_blank">ICON <i> LINK </a>
+	- **Academicons**: 
+## Change formatting of library titles
+- capture in '<b>' and '<\/b>' (see https://github.com/floriandierickx/floriandierickx.github.io/commit/3d79b96da69ef065bb88f0228e7e44cba38ddf8d)
 
 
 		
