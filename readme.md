@@ -30,7 +30,7 @@
 	- Update gem : 'gem update --system'
 	- Update gems: 'bundle update --all' --> updates all gems in gemfile
 	
-# Annotation of Website: hypothes.is
+# Annotation and comments of Website: hypothes.is
 - Edit of '_layouts/default.html'. See https://github.com/floriandierickx/floriandierickx.github.io/commit/bc61aa0c4dedd016f086eda4e807ff2b196b88c9
 
 # Comments integration: Discuss
