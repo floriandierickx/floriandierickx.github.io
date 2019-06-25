@@ -41,12 +41,11 @@
 - Integration commit: https://github.com/floriandierickx/floriandierickx.github.io/commit/3f0528db235504020757c46bd8751769a2e9f207
 - Inclusion of iframe: http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html (for https://floriandierickx.github.io/library/copernicus/index.html)
 
-# Online Library with Altmetric Badges+ Annotation of Pdfs: bib-list.js, zotero files, hypoethes.is and nextcloud upload
+# Online Library with Altmetric Badges [+ Annotation of Pdfs: not yet implemented, suggestions welcome] : bib-list.js [hypoethes.is and nextcloud upload]
 ## Online library: bib-list.js
 - First integration: 
 ## Integration of altmetric badges in literature list
 - See https://github.com/floriandierickx/floriandierickx.github.io/commit/faba83911807f5807d280c58afce5de2000fcef4
-## 
 
 # General website formatting
 ## Find and replace fonts in css files
@@ -55,7 +54,7 @@ regex search and replace with font-family:(?:.*);
 change 'margin-right' in nav ul li, footer ul li {
 ## Icons (Font Awesome and Academicons)
 - Start: https://fontawesome.com/start or https://jpswalsh.github.io/academicons/ 
-- Look for icons: https://fontawesome.com/icons/ 
+- Look for icons: https://fontawesome.com/icons/ + include icons in html:
 	- **Font Awesome**: Include href link, around icon: <a href="http://....." target="_blank">ICON <i> LINK </a>
 	- **Academicons**: 
 ## Change formatting of library titles
