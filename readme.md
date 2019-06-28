@@ -33,6 +33,13 @@
 # Annotation and comments of Website: hypothes.is
 - Edit of '_layouts/default.html'. See https://github.com/floriandierickx/floriandierickx.github.io/commit/bc61aa0c4dedd016f086eda4e807ff2b196b88c9
 
+# Conversion of twitter threads to HTML: TweetView
+
+- https://github.com/hrbrmstr/tweetview/blob/master/README.md (R package)
+	- Solution to error installing tidyverse: https://medium.com/@kadek/how-to-install-the-tidyverse-r-via-homebrew-macos-10-14-d749d2136cf1
+	- 
+
+
 # Comments integration: Discuss
 - Add script to pages ('_layouts/default.html', ...)
 - See commit https://github.com/floriandierickx/floriandierickx.github.io/commit/9823e711e56f555c64ff44d8f016296b9441bc81
