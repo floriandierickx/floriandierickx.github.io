@@ -21,7 +21,7 @@ Ed Hawkins - climate scientist from the UK and initiator of the #ShowYourStripes
 
 On this, mister Al Sabban has to say: "These are natural variabilities. It has nothing to do with you claim. Again nonsense", "Wake up. Don’t be misled forever" and "You may be part of the big mafia. Don’t forget your role in the Climate Gate".
 
-The finishing sledgehammer is brought in by Michael E. Mann, citing a part of his book in which he explains how the Saudi's have set up this so-called 'Climate Gate' (emails that have been stolen from climate scientists and that have been used to undermine climate negotiations during the Copenhagen climate negotiations):
+The finishing sledgehammer is brought in by Michael E. Mann, citing a part of his book in which he explains how the Saudi's might have set up this so-called 'Climate Gate' (emails that have been stolen from climate scientists and that have been used to undermine climate negotiations during the Copenhagen climate negotiations):
 
 "Saudi web servers were among the first used to post the stolen materials, and Saudi Arabia was the first country to call for an investigation of climate scientists in what came to be known as climate gate, leading some to suggest that Saudi Arabia - the world's single largest exporter of oil - may have played a role. In any case, the lead Saudi climate change negotiator, Mohammad Al-Sabban, was quick to use the manufactured scandal to help block progress at the Copenhagen summit. The e-mails would have a "huge impact" on the negotiations, he had predicted, and he went on to make the jaw-dropping claim that "it appears from the details of the scandal that there is no relationship whatsoever between human activities and climate change".
 
