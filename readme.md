@@ -37,8 +37,7 @@
 
 - https://github.com/hrbrmstr/tweetview/blob/master/README.md (R package)
 	- Solution to error installing tidyverse: https://medium.com/@kadek/how-to-install-the-tidyverse-r-via-homebrew-macos-10-14-d749d2136cf1
-	- 
-
+- Thanks to @hrbrmstr for helping out with formatting and publishing ! -> https://github.com/hrbrmstr/tweetview/issues/1
 
 # Comments integration: Discuss
 - Add script to pages ('_layouts/default.html', ...)
