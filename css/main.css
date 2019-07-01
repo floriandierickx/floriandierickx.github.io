@@ -467,10 +467,21 @@ a {
 /*a:hover {
     text-decoration: underline;
 }*/
-h1 {
+
+/*h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}*/
+
+h1 {
+font-size: 2em;
+font-family: 'Helvetica','Sans-Serif';
+background: #b8c2b1;
+font-weight: bold;
+padding: 5px;
 }
+
+
 h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
