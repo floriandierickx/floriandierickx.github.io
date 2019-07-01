@@ -1,3 +1,46 @@
+/*------------>*/
+/*--Tweetview->*/
+/*------------>*/
+
+/* .tweet-para {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.3em;
+  border: 0.5px solid rgba(27, 40, 54, 0.5);;
+  border-radius: 5px;
+  width: 494px;
+  display: block;
+  padding: 12px 6px 12px 6px;
+  margin-bottom: 4pt;
+}
+ = original formatting */
+
+.tweet-para {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+a.tweet-lnk {
+  font-size: 0.85em;
+  line-height: 1.3em;
+  text-decoration: none;
+  color:rgb(29, 161, 242)
+}
+
+img.twimg {
+  display: block;
+  max-width:1vw;
+  border: 0.50px dotted black;
+  margin-top:12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:12px;
+}
+
+
+
 /*--------->*/
 /*--IFRAME->*/
 /*--------->*/
@@ -62,7 +105,6 @@ font-size: 90%;
   background: #55ACEE;
   color: white;
 }
-
 
 
 /*--IMAGES-->*/
