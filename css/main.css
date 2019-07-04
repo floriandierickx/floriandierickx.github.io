@@ -41,6 +41,7 @@ img.twimg {
 
 
 
+
 /*--------->*/
 /*--IFRAME->*/
 /*--------->*/
@@ -284,7 +285,6 @@ margin-bottom: 0px;
 	font-family:'Raleway', 'Arial', 'Sans-Serif';
 }
 a:any-link {
-	color: -webkit-link;
 }
 span.undefined {
 	color: red;
