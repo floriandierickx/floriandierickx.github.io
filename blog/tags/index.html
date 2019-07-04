@@ -40,7 +40,7 @@ The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
 {% for tag in tags %}
-	<a class="tag" href="#{{ tag | slugify }}"><i class="fas fa-tag fa-xs"></i> {{ tag }} </a>
+	<a class="tag-page" href="#{{ tag | slugify }}"><i class="fas fa-tag fa-xs"></i> {{ tag }} </a>
 {% endfor %}
 {% comment %}
 =======================
