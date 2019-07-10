@@ -482,7 +482,7 @@ a {
 }*/
 
 h1 {
-font-size: 2em;
+font-size: 1.5em;
 font-family: 'Helvetica','Sans-Serif';
 background: #b8c2b1;
 font-weight: bold;
@@ -491,11 +491,12 @@ padding: 5px;
 
 
 h2 {
-    font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+font-size: 1.5em;
+font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+background-color: beige;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.4em;
     color: #333;
 }
