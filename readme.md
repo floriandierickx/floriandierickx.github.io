@@ -33,11 +33,39 @@
 # Annotation and comments of Website: hypothes.is
 - Edit of '_layouts/default.html'. See https://github.com/floriandierickx/floriandierickx.github.io/commit/bc61aa0c4dedd016f086eda4e807ff2b196b88c9
 
-# Conversion of twitter threads to HTML: TweetView
+# Conversion of twitter threads to HTML:
+
+## TweetView
 
 - https://github.com/hrbrmstr/tweetview/blob/master/README.md (R package)
 	- Solution to error installing tidyverse: https://medium.com/@kadek/how-to-install-the-tidyverse-r-via-homebrew-macos-10-14-d749d2136cf1
 - Thanks to @hrbrmstr for helping out with formatting and publishing ! -> https://github.com/hrbrmstr/tweetview/issues/1
+
+## Extract.js
+
+- From: https://gist.github.com/phillmv/caa6d522603a28cc01f426e8d56e8f8a
+
+Code:
+```javascript
+// Open the Chrome inspector, and select the topmost div containing the twitter thread.
+// You might want to open the first tweet in the thread, scroll down to load every item in the thread, then select the parent container
+
+var foo = document.createElement("div");
+var str = ""
+$($0).find(".tweet").each(function(i, t) { 
+  var tweet = $(t);
+  var turl = "https://twitter.com" + tweet.data("permalink-path")
+  var tdate = tweet.find(".tweet-timestamp").attr("title")
+  var tcontent = tweet.find(".tweet-text").html()
+  str += '<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">' + tcontent + '</p>&mdash; FlorianDRX (@FlorianDRX) <a href="' + turl + '" target="_blank">' + tdate + '</a></blockquote>\n\n';
+});
+
+foo.innerHTML = str 
+
+// type foo and right click to select. Congrats! Don't forget to add a 
+// <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+// at the bottom of wherever you post it.
+```
 
 # Comments integration: Discuss
 - Add script to pages ('_layouts/default.html', ...)
