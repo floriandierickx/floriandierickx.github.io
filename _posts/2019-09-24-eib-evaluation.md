@@ -9,4 +9,4 @@ Read on Twitter: <a href="http://bit.ly/2mqbEt4" target="_blank"><i class="fab f
 
 ---
 
-<div id="tttt_1171057057950314501" data-option="1"><strong><a href="https://threadreaderapp.com/thread/1176537111715033088.html"></a></strong></div><script async src="https://threadreaderapp.com/embed/1171057057950314501.js" charset="utf-8"></script>
+<div id="tttt_1176537111715033088" data-option="1"><strong><a href="https://threadreaderapp.com/thread/1176537111715033088.html">Thread by @FlorianDRX: "Thread on @EIB economic appraisal of energy investment + relationship with monetary climate impact valuation Consultation: eib.org/en/about/ […]" #UNClimateSummit #AskEIB #CCS #UNCITRAL</a></strong></div><script async src="https://threadreaderapp.com/embed/1176537111715033088.js" charset="utf-8"></script>
