@@ -2,7 +2,7 @@
 layout: post
 title: "Musings from Bonn. The last day of the SBSTA50 Climate Change Conference"
 date: 2019-06-28
-tags: [blogpost]
+tags: [blogpost, EN]
 ---
 
 [Inspired by a twitter discussion initiated by Karl Mathiesen: [https://twitter.com/MichaelEMann/status/1144382677593837568](https://twitter.com/MichaelEMann/status/1144382677593837568)]

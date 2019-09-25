@@ -2,7 +2,7 @@
 layout: post
 title: "Quantitative Easing for the Climate"
 date: 2019-02-27
-tags: [twitter-thread]
+tags: [twitter-thread, EN]
 ---
 
 Read on Twitter: <a href="http://bit.ly/2J0Hwx8" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 

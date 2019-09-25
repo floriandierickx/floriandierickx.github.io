@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Programmation pluriannuelle de l’énergie Jancovici [FR]"
+title: "Programmation pluriannuelle de l’énergie Jancovici"
 date: 2018-11-18
-tags: [twitter-thread]
+tags: [twitter-thread, FR]
 ---
 
 Read on Twitter: <a href="http://bit.ly/2J2jFgr" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 

@@ -2,7 +2,7 @@
 layout: post
 title: "Report Belgian Federal Planning Bureau proves the need for a just and fair climate transition"
 date: 2019-09-25
-tags: [twitter-thread]
+tags: [twitter-thread, EN]
 ---
 
 Read on Twitter: <a href="http://bit.ly/2mV15hF" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
@@ -14,8 +14,8 @@ Read on Twitter: <a href="http://bit.ly/2mV15hF" target="_blank"><i class="fab f
 
 Recent report Belgian Planning Bureau <span class="tweet-mention">@FPB_BE</span> <span class="tweet-mention">@BFP_BE</span> <span class="tweet-mention">@josefine_v</span> <span class="tweet-mention">@TimGoedeme</span> [<a class="tweet-lnk" href="https://t.co/84rWkZmCdU]" target="_blank">https://t.co/84rWkZmCdU]</a> prooves need for a just and fair climate policy 
 
-*Food/transport/housing largest impact
-*Impact ↗️ with age, education, income
+* Food/transport/housing largest impact
+* Impact ↗️ with age, education, income
 
 <span class="tweet-mention">@MathiasB9</span> <span class="tweet-mention">@Apache_be</span> <span class="tweet-mention">@jnwlrvn</span> <span class="tweet-mention">@Dirk_Lauwers</span> <a class="tweet-lnk" href="https://t.co/1nd6SUrDXZ" target="_blank">https://t.co/1nd6SUrDXZ</a>
 

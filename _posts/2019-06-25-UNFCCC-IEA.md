@@ -2,7 +2,7 @@
 layout: post
 title: "UNFCCC & IEA Bonn Climate Change Conference - Side Event on Energy Data For Climate Policy"
 date: 2019-06-25
-tags: [twitter-thread]
+tags: [twitter-thread, EN]
 ---
 
 Read on Twitter: <a href="http://bit.ly/2IZNC0O" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
