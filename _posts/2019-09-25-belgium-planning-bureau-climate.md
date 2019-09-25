@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Report Belgian Federal Planning Bureau prooves the need for a just and fair climate transition"
+title: "Report Belgian Federal Planning Bureau proves the need for a just and fair climate transition"
 date: 2019-09-25
 tags: [twitter-thread]
 ---
