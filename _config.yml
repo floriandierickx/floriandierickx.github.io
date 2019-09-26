@@ -8,6 +8,8 @@ plugins:
   
 url: http://floriandierickx.github.io
 
+title_image: "https://floriandierickx.github.io/icons/banner.jpeg"
+
 navigation:
 - root: Home
   url: /
