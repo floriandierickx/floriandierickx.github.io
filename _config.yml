@@ -43,3 +43,5 @@ navigation:
       url: /library/eib/index.html
 - root: Agenda
   url: /agenda
+- root: Emission Budget[beta]
+  url: /emission-budget
