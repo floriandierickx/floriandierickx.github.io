@@ -1,0 +1,23 @@
+---
+layout: default
+title: Carbon Budget Literature
+---
+
+<div class="container">
+	<div class="blurb">
+		<h1>
+			Carbon Budget Literature
+		</h1>
+	    <p> Below bibliography includes a small list of literature related to carbon budgets.
+       </p>
+	</div><!-- /.blurb -->
+    <table id="pubTable" class="display"></table>
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="../../build/bib-list.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    	bibtexify("budget.bib", "pubTable", {'tweet': 'FlorianDRX'});
+    });
+	</script>
+	<br>
+</div>

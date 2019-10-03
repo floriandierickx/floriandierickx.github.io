@@ -8,11 +8,6 @@ plugins:
   
 url: http://floriandierickx.github.io
 
-algolia:
-  application_id: 'NM05J4B7GZ'
-  index_name: 'github_sites'
-  files_to_exclude: []
-
 title_image: "https://floriandierickx.github.io/icons/banner.jpeg"
 
 navigation:
@@ -48,5 +43,8 @@ navigation:
       url: /library/eib/index.html
 - root: Agenda
   url: /agenda
-- root: Carbon Emission Budget Calculator
+- root: Carbon Budget Calculator
   url: /emission-budget
+  first-level:
+    - text: Literature
+      url: /emission-budget/literature/index.html
