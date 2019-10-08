@@ -261,6 +261,7 @@ nav ul li, footer ul li.bottom {
   position: absolute;
   top: 8px;
   right: 16px;
+  left: 60%;
 }
 
 .bottom-left {
