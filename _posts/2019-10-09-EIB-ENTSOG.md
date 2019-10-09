@@ -5,7 +5,7 @@ date: 2019-10-09
 tags: [twitter-thread, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2OAEZwO" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2ox5p87" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
 
 -----
 * Do not remove this line (it will not be displayed)
