@@ -1,0 +1,21 @@
+---
+layout: default
+title: Personal Carbon Quota Bibilography
+---
+
+<div class="container">
+	<div class="blurb">
+		<h1>
+			Personal Carbon Quota Bibilography
+		</h1>
+	</div><!-- /.blurb -->
+    <table id="pubTable" class="display"></table>
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="../../build/bib-list.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    	bibtexify("carbon-quota.bib", "pubTable", {'tweet': 'FlorianDRX'});
+    });
+	</script>
+	<br>
+</div>
