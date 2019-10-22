@@ -25,10 +25,6 @@ navigation:
 - root: Library
   url: /library
   first-level:
-    - text: Belgian Climate Policy
-      url: /library/belgium/index.html
-    - text: Belgian Energy Policy
-      url: /library/belgium-e/index.html
     - text: 100 % Renewables
       url: /library/renewables/index.html
     - text: Integrated Assessment Models
@@ -41,6 +37,12 @@ navigation:
       url: /library/cc-cb/index.html
     - text: EIB Climate & Energy Review
       url: /library/eib/index.html
+    - text: Belgian Climate Policy
+      url: /library/belgium/index.html
+    - text: Belgian Energy Policy
+      url: /library/belgium-e/index.html
+    - text: Biorefineries
+      url: /library/biorefineries/index.html
 - root: Agenda
   url: /agenda
 - root: Carbon Budget Calculator
