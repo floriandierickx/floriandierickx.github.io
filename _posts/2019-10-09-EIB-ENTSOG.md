@@ -100,3 +100,19 @@ ex. <span class="tweet-mention">@EIB</span> : <a class="tweet-lnk" href="https:/
 <span class="tweet-mention">@KevinClimate</span> <span class="tweet-mention">@NB_pik</span> <span class="tweet-mention">@jessicadjewell</span> <span class="tweet-mention">@ChristianOnRE</span> <span class="tweet-mention">@BjarneSteffen</span> <span class="tweet-mention">@MaxJerneck</span>
 
 
+# 22/11/2019: Update on different emission standards (EIB, Sust. Finance Taxonomy, NGOs)
+
+NGOs call power sector emission standard in the EU Sustainable Finance taxonomy of 50gCO2/kWh instead of 100gCO2/kWh [<a class="tweet-lnk" href="https://t.co/Px46lFc69j]." target="_blank">https://t.co/Px46lFc69j].</a> Statement 9/2019: <a class="tweet-lnk" href="https://t.co/fGFvCU51Dg" target="_blank">https://t.co/fGFvCU51Dg</a>
+
+Why is <span class="tweet-mention">@EIB</span> proposing 250gCO2/kWh? <a class="tweet-lnk" href="https://t.co/eglGd2jSIa" target="_blank">https://t.co/eglGd2jSIa</a>
+
+
+# 17/12/2019: Update on EIB argumentation emission standard
+
+Argumentation <span class="tweet-mention">@EIB</span> on emission standard of 250 gCO2/kWh in final energy lending policy 15/11/19 [<a class="tweet-lnk" href="https://t.co/mcvbOTxsSL," target="_blank">https://t.co/mcvbOTxsSL,</a> p27]:
+
+"level is above proposed <span class="tweet-hashtag">#SustainableFinance</span> <span class="tweet-hashtag">#Taxonomy</span> benchmark but enables the bank to focus on projects needed over the long term [...]" <a class="tweet-lnk" href="https://t.co/n7tTF06CbA" target="_blank">https://t.co/n7tTF06CbA</a>
+
+<img class='twimg' style='max-width: 60%' src='http://pbs.twimg.com/media/EL_qJLuXYAEeeAU.jpg'/>
+
+
