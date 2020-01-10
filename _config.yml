@@ -5,7 +5,7 @@ permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-  
+
 url: http://floriandierickx.github.io
 
 title_image: "https://floriandierickx.github.io/icons/banner.jpeg"
@@ -35,6 +35,10 @@ navigation:
       url: /library/copernicus/index.html
     - text: Climate Change & Finance
       url: /library/cc-cb/index.html
+    - text: Climate Change & Employment
+      url: /library/climate-employment/index.html
+    - text: Personal Carbon Quotas
+      url: /library/carbon-quota/index.html
     - text: EIB Climate & Energy Review
       url: /library/eib/index.html
     - text: Belgian Climate Policy
