@@ -1,3 +1,6 @@
 _site/
 vendor/
 main-to-check.css
+.jekyll-cache
+Gemfile
+Gemfile.lock

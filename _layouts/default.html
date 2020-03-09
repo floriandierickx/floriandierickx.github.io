@@ -27,18 +27,18 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/academicons.min.css"/>
 	<script>
-		$(document).ready(function(){ 
-		    $(window).scroll(function(){ 
-		        if ($(this).scrollTop() > 100) { 
-		            $('#scroll').fadeIn(); 
-		        } else { 
-		            $('#scroll').fadeOut(); 
-		        } 
-		    }); 
-		    $('#scroll').click(function(){ 
-		        $("html, body").animate({ scrollTop: 0 }, 600); 
-		        return false; 
-		    }); 
+		$(document).ready(function(){
+		    $(window).scroll(function(){
+		        if ($(this).scrollTop() > 100) {
+		            $('#scroll').fadeIn();
+		        } else {
+		            $('#scroll').fadeOut();
+		        }
+		    });
+		    $('#scroll').click(function(){
+		        $("html, body").animate({ scrollTop: 0 }, 600);
+		        return false;
+		    });
 		});
 	</script>
 	<!-- Twitter Cards -->
@@ -68,15 +68,15 @@
 		<ul class="navigation" style="clear:both;">
 		      {% for link in site.navigation %}
 		        {% assign url = page.url|remove:'index.html' %}
-		        {% assign hasFirst = link.first-level != undefined %}          
-		        <li 
+		        {% assign hasFirst = link.first-level != undefined %}
+		        <li
 		            {% if hasFirst %} class="nested" {% endif%} {% if url == link.url %} class="current"{% endif %}>
-		            {% if hasFirst %} 
+		            {% if hasFirst %}
 		                <ul class="first-level">
-		                    {% for firstlevel in link.first-level %}  
+		                    {% for firstlevel in link.first-level %}
 		                        <li {% if url == firstlevel.url %} class="current" {% endif %} >
 		                            {% assign hasSecond = firstlevel.second-level != undefined %}
-		                            {% if hasSecond %} 
+		                            {% if hasSecond %}
 		                                <ul class="second-level">
 		                                    {% for secondlevel in firstlevel.second-level %}
 		                                        <li>
@@ -88,7 +88,7 @@
 		                            <a {% if firstlevel.target != undefined %} target="{{firstlevel.target}}" {% endif %} href="{{ firstlevel.url }}">{{ firstlevel.text }}{% if hasSecond %} <i class='icon-right-dir-2'></i>{% endif %}</a>
 		                        </li>
 		                    {% endfor %}
-		                </ul>                   
+		                </ul>
 		            {% endif %}
 		            <a href="{{link.url}}"  class="{{link.icon}}">{{link.root}} {% if hasFirst %} <i class='icon-down-dir-2'></i>{% endif %}</a>
 		        </li>
@@ -112,7 +112,7 @@
 	this.page.url = "{{site.url}}{{page.url}}";  // Replace PAGE_URL with your page's canonical URL variable
 	this.page.identifier = "{{page.url}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
-	
+
 	(function() { // DON'T EDIT BELOW THIS LINE
 	var d = document, s = d.createElement('script');
 	s.src = 'https://florian-dierickx.disqus.com/embed.js';
@@ -147,15 +147,15 @@
 			<ul>
 				<li class="bottom">
 					<p class="foottext" style="text-align:left">Powered by
-						<a href="https://jekyllrb.com" class="footlink" target="_blank">Jekyll</a> [<a href="https://github.com/jekyll/jekyll-feed" class="footlink" target="_blank">feed</a>, 
-						<a href="https://github.com/feedreader/jekyll-planet" class="footlink" target="_blank">planet</a>], 
-						<a href="https://hypothes.is/users/floriandierickx" class="footlink" target="_blank">hypothes.is</a>, 
+						<a href="https://jekyllrb.com" class="footlink" target="_blank">Jekyll</a> [<a href="https://github.com/jekyll/jekyll-feed" class="footlink" target="_blank">feed</a>,
+						<a href="https://github.com/feedreader/jekyll-planet" class="footlink" target="_blank">planet</a>],
+						<a href="https://hypothes.is/users/floriandierickx" class="footlink" target="_blank">hypothes.is</a>,
 						<a href="https://github.com/hrbrmstr" class="footlink" target="_blank">@hrbrmstr</a> <a href="https://github.com/hrbrmstr/tweetview" class="footlink" target="_blank">TweetView</a>, <br>
-						<a href="https://github.com/vkaravir/bib-publication-list" class="footlink" target="_blank">bib-publication-list</a>, 
-						<a href="https://fontawesome.com/start" class="footlink" target="_blank">fontawesome</a>, 
-						<a href="https://jpswalsh.github.io/academicons/" class="footlink" target="_blank">academicons</a>, 
+						<a href="https://github.com/vkaravir/bib-publication-list" class="footlink" target="_blank">bib-publication-list</a>,
+						<a href="https://fontawesome.com/start" class="footlink" target="_blank">fontawesome</a>,
+						<a href="https://jpswalsh.github.io/academicons/" class="footlink" target="_blank">academicons</a>,
 						<a href="https://www.altmetric.com" class="footlink" target="_blank">altmetric</a>,
-						<a href="https://disqus.com" class="footlink" target="_blank">disqus</a> and 
+						<a href="https://disqus.com" class="footlink" target="_blank">disqus</a> and
 						<a href="https://github.com/floriandierickx/mapfilter" class="footlink" target="_blank">mapfilter</a>
 					</p>
 				</li>
@@ -163,7 +163,7 @@
 		</div>
 		<div class="bottom-right">
 			<ul>
-				<li class="bottom"><p class="foottext" style="text-align:right">17 December 2019</p>
+				<li class="bottom"><p class="foottext" style="text-align:right">9 March 2020</p>
 				</li>
 			</ul>
 		</div>

@@ -98,7 +98,7 @@
 
 
 
-	// 
+	//
 	// MarkersClass - designed to contain all google markers for map.
 	// Note that one marker can contain multiple events.
 	var MarkersClass = makeClass();
@@ -107,7 +107,7 @@
 		// value is markerObject - see createMarker()
 		this.allMarkers = {};
 		this.gMap = gMap;  // the google map object
-		this.infoWindowMarker = null; 
+		this.infoWindowMarker = null;
 		this.infoWindow = new google.maps.InfoWindow({
 			size: new google.maps.Size(50,50)
 		});
@@ -115,7 +115,7 @@
 		google.maps.event.addListener(this.infoWindow, 'closeclick', function() {
 			myMarkers.closeInfoWindow();
 		});
-	} 
+	}
 	MarkersClass.prototype.infoWindowIsOpen = function(){
 		return this.infoWindowMarker != null;
 	}
@@ -142,12 +142,12 @@
 			return this.allMarkers[coordsStrOrEvent]; // coordsStr
 
 		} else if (typeof coordsStrOrEvent === 'object') {
-			// note that an event object can be created without a marker object, 
+			// note that an event object can be created without a marker object,
 			// if need to check marker existance, best use eventObj.getMarkerObj()
 			return this.allMarkers[coordsStrOrEvent.getCoordsStr()]; // coordsStrOrEvent = eventObj
-			
+
 		} else if (typeof coordsStrOrEvent === 'number') {
-			// note that an event object can be created without a marker object, 
+			// note that an event object can be created without a marker object,
 			// if need to check marker existance, best use eventObj.getMarkerObj()
 			return this.allMarkers[cnMF.eventList[coordsStrOrEvent].getCoordsStr()]; // coordsStrOrEvent = event index
 
@@ -170,7 +170,7 @@
 
 		markerObj.googleMarker.setVisible(true);
 		eventObj.setMarkerObj(markerObj);
-			
+
 		// make sure event is in markerObj's event list
 		for (var ii=0; ii < markerObj.eventList.length; ii++) {
 			if (markerObj.eventList[ii] === eventObj.id) {
@@ -227,7 +227,7 @@
 			} catch (e) {}
 		});
 		return this;
-	} 
+	}
 	MarkerClass.prototype.getEvents = function(){
 		return this.eventList;
 	}
@@ -277,10 +277,10 @@
 		cnMF.curEndDay	= coreOptions.oEndDay;
 		cnMF.origStartDay = coreOptions.oStartDay;
 		cnMF.origEndDay   = coreOptions.oEndDay;
-		
-		// if any callback functions are not defined as functions, assign them to empty functions so 
+
+		// if any callback functions are not defined as functions, assign them to empty functions so
 		// code can assume they are functions after this point
-		$.each(['cbOpenedInfoWindow','cbClosedInfoWindow','cbMapRedraw','cbMarkerClicked'], 
+		$.each(['cbOpenedInfoWindow','cbClosedInfoWindow','cbMapRedraw','cbMarkerClicked'],
 			function(index, cbfunc){
 				if (typeof cnMF.coreOptions[cbfunc] !== 'function') {
 					cnMF.coreOptions[cbfunc] = function() {}
@@ -291,7 +291,7 @@
 		cnMF.tz.name = coreOptions.tzName ? coreOptions.tzName : 'unknown'; // Olson database timezone key (ex: Europe/Berlin)
 		cnMF.tz.dst = coreOptions.tzDst ? coreOptions.tzDst : 'unknown'; // bool for whether the tz uses daylight saving time
 		cnMF.tz.computedFromBrowser = (cnMF.tz.name != 'unknown');
-		
+
 		cnMF.myGeo = cnMF.geocodeManager();
 	}
 
@@ -354,7 +354,7 @@
 
 	/**
 	 * Iterates through all GCM Events and builds array of unique addresses
-	 * @return {object} 
+	 * @return {object}
 	 */
 	cnMF.gatherUniqAddr = function gatherUniqAddr() {
 		var kk, uniqAddr = {};
@@ -370,9 +370,9 @@
 		return uniqAddr;
 	}
 
-	cnMF.addCal = function(calendarId, calData){ 
+	cnMF.addCal = function(calendarId, calData){
 		// console.log("cnMF.addCal", calendarId, calData);
-		
+
 		if (!cnMF.calData) {
 			cnMF.calData = {};
 		}
@@ -398,7 +398,7 @@
 
 			if (box === null) {
 				var corner = new google.maps.LatLng(kk.lt, kk.lg);
-				box = new google.maps.LatLngBounds(corner, corner); 
+				box = new google.maps.LatLngBounds(corner, corner);
 			} else {
 				box.extend( new google.maps.LatLng(kk.lt, kk.lg) );
 			}
@@ -533,7 +533,7 @@
 
 	cnMF.getGCalData = function getGCalData(calendarId, startDays, endDays, callbacks ) {
 		var gCalUrl = 'https://content.googleapis.com/calendar/v3/calendars/'+ calendarId +'/events';
-		
+
 		//startmax = '2009-07-09T10:57:00-08:00';
 
 		// TODO: change rfc3339 to accept StartDays
@@ -556,7 +556,7 @@
 		gCalObj = {
 			'timeMin': startmin,
 			'timeMax': startmax,
-			'max-results': 250, // default, can go up to 2500
+			'max-results': 500, // default, can go up to 2500
 			//'orderBy'  : 'startTime',
 			'singleevents': true,
 			'key':'AIzaSyCX2M_RLQoQ3ApOgDYCRvg1PGZm9b1uEwk' // Google API Key 2018-7-16 no restrictions
@@ -574,7 +574,7 @@
 			timeout: 12000, // 12 secs
 			success: function(cdata) {
 				cnMF.parseGCalData(calendarId, cdata, startDate, endDate, callbacks);
-			}, 
+			},
 			complete: function (jqXHR, textStatus) {
 				if (textStatus !== 'success') {
 					debug.warn("**** getGCalData problem: ", textStatus, calendarId, jqXHR);
@@ -606,7 +606,7 @@
 			// TODO2 count in analytics how many people use timezones in browser vs calendar
 		}
 
-		// Create multiple gcm events from gcal recurring events first, 
+		// Create multiple gcm events from gcal recurring events first,
 		// then process one-offs from recurring events (which will update created ones) and create non recurring events.
 		for (var ii=0; cdata.items && cdata.items[ii]; ii++) {
 			var curItem = cdata.items[ii];
@@ -681,8 +681,8 @@
 			callbacks.onCalendarLoad(calendarInfo);
 		}
 	}
-	
-	
+
+
 	/**
 	 * Converts google date object to javascript date object
 	 * @param {object} gCalDate - google's date object used in event items.
@@ -694,14 +694,14 @@
 		if (!gCalDate) {
 			debug.log("parseGCalDate() - warning: no gCalDate");
 			return new Date(1); // return epoch
-		} 
+		}
 		if (gCalDate.dateTime) {
 			// ex: 2011-03-31T19:00:49.000Z
 			if (gCalDate.timeZone) {
 				debug.log("ignoring event timezone: ", gCalDate.timeZone );
 			}
 			return cnMF.parseDate(gCalDate.dateTime);
-		} 
+		}
 		if (gCalDate.date) {
 			// all-day event
 			if ('end' === startEnd) {
@@ -709,7 +709,7 @@
 			} else {
 				return cnMF.parseDate(gCalDate.date + 'T00:00:01.000Z');
 			}
-		} 
+		}
 	}
 
 	/**
@@ -724,9 +724,9 @@
 			return 0;
 		}
 		var dates, ii, options, rule, dateStart, gCalId;
-		/** @type {object Date} */ 
-		var curItemStart = cnMF.parseGCalDate(curItem.start, 'start'); 
-		/** @type {object Date} */ 
+		/** @type {object Date} */
+		var curItemStart = cnMF.parseGCalDate(curItem.start, 'start');
+		/** @type {object Date} */
 		var durationMs = (cnMF.parseGCalDate(curItem.end, 'end')).getTime() - curItemStart.getTime();
 
 		// https://github.com/jakubroztocil/rrule
@@ -740,15 +740,15 @@
 			rule.fromString(curItem.recurrence[ii].replace(/^RRULE:/,''));
 		}
 		// get list of dates from recurring event that falls between startDate & endDate
-		dates = rule.between(startDate, endDate, true); 
+		dates = rule.between(startDate, endDate, true);
 		debug.debug('addEventsFromRecur dates', dates);
 
 		// create gcm event for each of dates
 		for (ii=0; dates[ii]; ii++) {
 			dateStart = new Date(dates[ii]);
 
-			/* want to gCalId format to be same as google's item.id, so if google feed contains an item that 
-			 * is a one-off edit of a recurring event, we can easily allow that one-off to overwrite 
+			/* want to gCalId format to be same as google's item.id, so if google feed contains an item that
+			 * is a one-off edit of a recurring event, we can easily allow that one-off to overwrite
 			 * our generated events.  ex: 2fbgvshoedaub6t0rctn7vq264_20141226T233000Z
 			 */
 			gCalId = curItem.id + '_' + cnMF.rfc3339(dateStart,false)
@@ -772,7 +772,7 @@
 
 
 	// geocodeManager handles the geocoding of addresses
-	//	
+	//
 	// TODO: use more than just google maps api
 	//
 	// http://tinygeocoder.com/blog/how-to-use/
@@ -788,7 +788,7 @@
 
 		// count addreses and unique addreses.
 		// don't want duplicates - wasting calls to google
-		
+
 		var GeocodeManager = {}, // return obj
 		    addrObjects = [],  // stores all address objects
 		    resolveRequests = [],   // array of requestObjects, each obj has add, cb1, cb2
@@ -808,7 +808,7 @@
 		    maxBurstReq = 4,   // if timeout gets delayed, say 500ms, we can send 'maxBurstReq' at a time till we catch up
 		    maxRetries = 2;  // how many times an attempt to geocode service is made per address
 
-		
+
 		GeocodeManager.count = function() {
 			var c = {
 				uniqAddrDecoded: 0,
@@ -817,7 +817,7 @@
 				uniqAddrTotal: 0
 			}
 			// resolved = uniqAddrDecoded + uniqAddrErrors
-			// uniqAddrUnknown = uniqAddrTotal - resolved 
+			// uniqAddrUnknown = uniqAddrTotal - resolved
 			for (var addr in geoCache) {
 				ao = geoCache[addr];
 				c.uniqAddrTotal++;
@@ -827,8 +827,8 @@
 			}
 			return c;
 		}
-		
-		
+
+
 		//  GeocodeManager won't stop till all address objects are resolved (resolved==true)
 		//  when resolved is true, then if (validCoords) it was successful
 		//  otherwise look to error
@@ -871,10 +871,10 @@
 		}
 
 		// GeocodeManager.addr2coords(addresses, cb1, cbAll) - resolve a list of addresses
-		//    addresses - object - key is address string, where each address string will map to a address object. 
+		//    addresses - object - key is address string, where each address string will map to a address object.
 		//    cb1 - callback function - called when an address is resolved
 		//    cbAll - callback function - called when all addresses are resolved.  cb1 is not called after this.
-	
+
 		GeocodeManager.addr2coords = function(addresses, cb1, cbAll) {
 			var uniqAddresses = deDup(addresses);
 			// store request
@@ -882,10 +882,10 @@
 				state: 'new',
 				addressesNew: uniqAddresses,
 				addressesResolved: [],
-				cb1 : cb1, 
+				cb1 : cb1,
 				cbAll : cbAll
 			});
-			
+
 			for (var ii = 0; ii < uniqAddresses.length; ii++) {
 				if (!geoCache[uniqAddresses[ii]]) {
 					geoCache[uniqAddresses[ii]] = new addrObject(uniqAddresses[ii]);
@@ -903,18 +903,18 @@
 			    allResolved = true,
 			    addrNotResolved,
 			    addr;
-			
+
 			for (var ii = 0; ii < resolveRequests.length; ii++) {
 				curReq = resolveRequests[ii],
 				addrNotResolved = [];
-				
+
 				if (curReq.state === 'allResolved') {
 					continue;
 				}
 				allResolved = false;
 				for (var jj = 0; jj < curReq.addressesNew.length; jj++) {
 					addr = curReq.addressesNew[jj];
-					
+
 					if (geoCache[addr].resolved) {
 						curReq.addressesResolved.push(addr);
 						if (typeof curReq.cb1 === 'function') {
@@ -1063,7 +1063,7 @@
 			//$("#"+ cnMFUI.opts.listId ).append('.');
 
 			var geocoder = new google.maps.Geocoder();
-			geocoder.geocode( { 
+			geocoder.geocode( {
 				'address': addr
 			}, function(results, status) {
 				var s2e = {};
@@ -1103,10 +1103,10 @@
 
 	};
 	(function(){
-		// TODO: separate geocode manager out 
+		// TODO: separate geocode manager out
 		//console.log("LOADED GeocodeManager")
 	})();
-	
+
 
 	// END GEOCODE
 
@@ -1135,7 +1135,7 @@
 	}
 
 	/*
-	 * Converts a javascript date object to RFC 3339 string, format needed for google APIs. 
+	 * Converts a javascript date object to RFC 3339 string, format needed for google APIs.
 	 * Note that RFC 3339, made for internet, is basically a subset of ISO 8601
 	 * @param {object Date} d javascript date object to convert
 	 * @param {boolean} clearhours zeros out the hours field
@@ -1164,7 +1164,7 @@
   /*
    * @param {object Date} d
    * @param {string} format
-   * @return {string} 
+   * @return {string}
    */
 	cnMF.formatDate = function(d, format) {
 		var f = cnMF.dateFormatters;
@@ -1218,7 +1218,7 @@
 	/*
 	 * Converts a date from any type into a js date object
 	 * @param {object|undefined|number|string} s date object, undefined, msecs since epoch, ISO8601 string
-	 * @return {object Date} 
+	 * @return {object Date}
 	 */
 	cnMF.parseDate = function(s) {
 		if (typeof s == 'object') return s; // already a Date object
@@ -1237,7 +1237,7 @@
 	 * Converts a ISO 8601 string into a javascript date object
 	 * @param {string} s ISO 8601 string
 	 * @param {boolean} ignoreTimezone
-	 * @return {object Date} ex: 
+	 * @return {object Date} ex:
 	 */
 	cnMF.parseISO8601 = function(s, ignoreTimezone) {
 		// derived from http://delete.me.uk/2005/03/iso8601.html
@@ -1286,12 +1286,12 @@
 /*
  * Purpose is to throttle duplicate UI events that happen in rapid succession
  * so that an action dependent on them does not get called too often.
- * For example, if the UI needs to be updated after the browser is resized, 
+ * For example, if the UI needs to be updated after the browser is resized,
  * there will probably more than one duplicate events fired while the user is resizing.
  * So it is probably better to wait 300ms after the event is fired before updating.
  *
  * See setTimeout() below
- */ 
+ */
 (function (){
 	var timeOuts = {};
 	cnMF.throttle = {
@@ -1320,7 +1320,7 @@
 				return;
 			}
 			timeOuts[namespace].called++;
-		
+
 			// Already created a timeout for namespace, and it has not fired.
 			// Now check if we need to update it or leave it alone
 			if (when && when == "afterLast") {
@@ -1337,5 +1337,3 @@
 		}
 	};
 })();
-
-

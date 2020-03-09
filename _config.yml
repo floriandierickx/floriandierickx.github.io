@@ -49,6 +49,11 @@ navigation:
       url: /library/biorefineries/index.html
 - root: Agenda
   url: /agenda
+  first-level:
+    - text: Explore Events
+      url: /agenda/explore-events/index.html
+    - text: Add Events
+      url: /agenda/add-event/index.html
 - root: Carbon Budget Calculator
   url: /emission-budget
   first-level:
