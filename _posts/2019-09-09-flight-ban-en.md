@@ -2,10 +2,10 @@
 layout: post
 title: "Flemish Flight Ban : Legislative Background"
 date: 2019-09-09
-tags: [twitter-thread, EN]
+tags: [twitter-thread, news, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2LE7ff1" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2LE7ff1" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 
@@ -51,8 +51,3 @@ Follow-up in March 2019 [<a class="tweet-lnk" href="https://t.co/cLTO1Efw5l]" ta
 <span class="tweet-hashtag">#ClimateAction</span> <span class="tweet-hashtag">#ClimateStrike</span> <span class="tweet-hashtag">#ClimateCrisis</span> <span class="tweet-hashtag">#climate</span>
 
 French version : <a class="tweet-lnk" href="https://t.co/nyhVhHfHZQ" target="_blank">https://t.co/nyhVhHfHZQ</a>
-
-
-
-
-

@@ -2,10 +2,10 @@
 layout: post
 title: "Slimme kilometerheffing? Commentaar op het Planbureau-rapport"
 date: 2019-09-06
-tags: [twitter-thread, NL]
+tags: [twitter-thread, commentary, NL]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2LISUOn" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2LISUOn" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
@@ -57,7 +57,7 @@ Luchtvervuiling : 0.009 (wagen) - 0.042 (bus) EUR / voertuig-km
 
 0.009 (wagen) - 0.042 (bus) EUR / voertuig-km
 
-via Nordhaus (2017) met 42 EUR / tonCO2 in 2024 -&gt; zeer gecontesteerd (!) <a class="tweet-lnk" href="https://t.co/QRGTFtvHuQ" target="_blank">https://t.co/QRGTFtvHuQ</a> -&gt; waarom niet meer aandacht geven aan fouten? 
+via Nordhaus (2017) met 42 EUR / tonCO2 in 2024 -&gt; zeer gecontesteerd (!) <a class="tweet-lnk" href="https://t.co/QRGTFtvHuQ" target="_blank">https://t.co/QRGTFtvHuQ</a> -&gt; waarom niet meer aandacht geven aan fouten?
 
 CO2-prijs lost klimaatprobleem niet op, maar onderprijzen al zeker niet <a class="tweet-lnk" href="https://t.co/FoKn4dJaqn" target="_blank">https://t.co/FoKn4dJaqn</a>
 
@@ -117,7 +117,7 @@ Waarom niet meer subsidies OV &amp; trein? (+ hogere auto-belastingen)
 Decarbonisatie = belangrijk!
 <a class="tweet-lnk" href="https://t.co/RBUx03sXW6" target="_blank">https://t.co/RBUx03sXW6</a>
 
-Zie ook rapport <span class="tweet-mention">@Bruegel_org</span> <span class="tweet-mention">@Tagliapietra_S</span> <span class="tweet-mention">@GeorgZachmann</span> <a class="tweet-lnk" href="https://t.co/JMzwfPlCFQ" target="_blank">https://t.co/JMzwfPlCFQ</a> 
+Zie ook rapport <span class="tweet-mention">@Bruegel_org</span> <span class="tweet-mention">@Tagliapietra_S</span> <span class="tweet-mention">@GeorgZachmann</span> <a class="tweet-lnk" href="https://t.co/JMzwfPlCFQ" target="_blank">https://t.co/JMzwfPlCFQ</a>
 
 - normeren en verbieden van verbrandingsmotoren
 - hervormen belastingssysteem (<a class="tweet-lnk" href="https://t.co/eXaF64fmlw)" target="_blank">https://t.co/eXaF64fmlw)</a> door inclusie CO2 in:
@@ -151,7 +151,7 @@ Zie ook rapport <span class="tweet-mention">@Bruegel_org</span> <span class="twe
 
 ## en met Dominković et al
 
-<a class="tweet-lnk" href="https://t.co/VZuXcb3IU6" target="_blank">https://t.co/VZuXcb3IU6</a> : 
+<a class="tweet-lnk" href="https://t.co/VZuXcb3IU6" target="_blank">https://t.co/VZuXcb3IU6</a> :
 analyse biofuels, waterstof, synthetische brandstoffen en electrificatie.
 
 "Energy demand of EU transport sector = 1/3 of total final EU energy demand"

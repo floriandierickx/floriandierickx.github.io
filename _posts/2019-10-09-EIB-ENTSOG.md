@@ -2,17 +2,17 @@
 layout: post
 title: "New Draft EIB Energy Policy Revision: The Case of Gas"
 date: 2019-10-09
-tags: [twitter-thread, EN]
+tags: [twitter-thread, report-summary, commentary, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2ox5p87" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2ox5p87" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
 {:toc}
 -----
 
-Thanks <span class="tweet-mention">@SamJamesMorgan</span> for an update on the ongoing <span class="tweet-mention">@EIB</span> and <span class="tweet-mention">@EU_Commission</span> climate debate 
+Thanks <span class="tweet-mention">@SamJamesMorgan</span> for an update on the ongoing <span class="tweet-mention">@EIB</span> and <span class="tweet-mention">@EU_Commission</span> climate debate
 
 🔖<a class="tweet-lnk" href="https://t.co/MY2V4qEZb3" target="_blank">https://t.co/MY2V4qEZb3</a>
 
@@ -42,11 +42,11 @@ PL/CZ argue for more money. <span class="tweet-mention">@EIB</span> will finance
 
 ## Revised EIB Energy Lending Policy : introduction of emission standard and gas projects
 
-(b) Debate revised <span class="tweet-mention">@EIB</span> energy lending policy 
+(b) Debate revised <span class="tweet-mention">@EIB</span> energy lending policy
 
 First draft thread : <a class="tweet-lnk" href="https://t.co/AetzwcPHSO" target="_blank">https://t.co/AetzwcPHSO</a> + blogpost <a class="tweet-lnk" href="https://t.co/VxWHOrHk4l" target="_blank">https://t.co/VxWHOrHk4l</a>
 
-Notable changes now [ <a class="tweet-lnk" href="https://t.co/59kgYbtEnC" target="_blank">https://t.co/59kgYbtEnC</a> 
+Notable changes now [ <a class="tweet-lnk" href="https://t.co/59kgYbtEnC" target="_blank">https://t.co/59kgYbtEnC</a>
 
 * Introduction emission standard &lt; 250 gCO2/kWhe
 * Inclusion of gas projects, despite large criticism <a class="tweet-lnk" href="https://t.co/7yE3P0n2P2" target="_blank">https://t.co/7yE3P0n2P2</a>
@@ -114,5 +114,3 @@ Argumentation <span class="tweet-mention">@EIB</span> on emission standard of 25
 "level is above proposed <span class="tweet-hashtag">#SustainableFinance</span> <span class="tweet-hashtag">#Taxonomy</span> benchmark but enables the bank to focus on projects needed over the long term [...]" <a class="tweet-lnk" href="https://t.co/n7tTF06CbA" target="_blank">https://t.co/n7tTF06CbA</a>
 
 <img class='twimg' style='max-width: 60%' src='http://pbs.twimg.com/media/EL_qJLuXYAEeeAU.jpg'/>
-
-

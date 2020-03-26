@@ -2,10 +2,10 @@
 layout: post
 title: "The role of nuclear energy in the climate transition"
 date: 2019-09-24
-tags: [twitter-thread, EN]
+tags: [twitter-thread, report-summary, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2lrrLpZ" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2lrrLpZ" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 ---
 
@@ -68,5 +68,3 @@ Among other graphs: currently cheapest energy generation tech per country <a cla
 [10] For an overview of historical state energy support, see Ecofys. KPMG, the Centre for Social and Economic Research (CASE) and CE Delft study from 2014 :
 
 <a class="tweet-lnk" href="https://t.co/avjCV9jxsc" target="_blank">https://t.co/avjCV9jxsc</a>
-
-

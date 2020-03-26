@@ -2,7 +2,7 @@
 layout: post
 title: "ERCST Webinar: The Politics of Border Carbon Adjustments in the European Green Deal – Dream or Reality?"
 date: 2020-03-25
-tags: [twitter-thread, EN]
+tags: [twitter-thread, event-notes, EN]
 ---
 
 Read on Twitter: <a href="https://bit.ly/33LuBI1" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>

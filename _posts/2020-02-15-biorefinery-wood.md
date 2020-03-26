@@ -2,10 +2,10 @@
 layout: post
 title: "Biorefineries: a case for phenol and propylene production using wood"
 date: 2020-02-15
-tags: [twitter-thread, EN]
+tags: [twitter-thread, report-summary, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/39yvlSH" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/39yvlSH" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
@@ -37,7 +37,7 @@ Phenol/propylene: precursors for Bisphenol A (plastics), nylon rope [<a class="t
 
 # Current production process?
 
-...is called the 🧙‍♂️Hock process. 
+...is called the 🧙‍♂️Hock process.
 
 Downsize(s!)❓
 
@@ -78,7 +78,7 @@ phenol production from lignine with 20 and 50 weight% yield for respectively sof
 
 # How can this help us combat climate change?
 
-## Current phenol/propylene production emissions (🧙‍♂️hock process) : 
+## Current phenol/propylene production emissions (🧙‍♂️hock process) :
 
 Global Warming Potential when producing from fossil feedstock:
 
@@ -129,7 +129,7 @@ Assumptions:
 
 🅰️renewable H2 (0.97 kgCO2/kgH2)
 
-🅱️standard Ecoinvent v3.3 forest management 
+🅱️standard Ecoinvent v3.3 forest management
 
 - Phenol =    🌬️-0.47 gCO2eq
 - Propylene = 🌬️-0.30 gCO2eq

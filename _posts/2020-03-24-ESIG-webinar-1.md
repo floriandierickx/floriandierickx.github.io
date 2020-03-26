@@ -2,7 +2,7 @@
 layout: post
 title: "ESIG 2020 Spring Technical Workshop Webinar 1: Evolving Thinking on Resource Adequacy for High VG Scenarios"
 date: 2020-03-24
-tags: [twitter-thread, EN]
+tags: [twitter-thread, event-notes, EN]
 ---
 
 Read on Twitter: <a href="https://bit.ly/39fhrEx" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>

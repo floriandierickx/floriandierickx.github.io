@@ -2,10 +2,10 @@
 layout: post
 title: "Urgent political action needed to divest from fossil fuels, as oil and gas companies undermine climate goals"
 date: 2019-09-09
-tags: [twitter-thread, EN]
+tags: [twitter-thread, report-summary, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2LBTLAi" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2LBTLAi" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
@@ -16,7 +16,7 @@ Read on Twitter: <a href="http://bit.ly/2LBTLAi" target="_blank"><i class="fab f
 
 "Oil and gas companies undermining climate goals" <span class="tweet-mention">@JH_Ambrose</span> <span class="tweet-mention">@guardian</span> <a class="tweet-lnk" href="https://t.co/LyyxSAbCTB" target="_blank">https://t.co/LyyxSAbCTB</a>
 
-<span class="tweet-mention">@IOGP_EU</span>, it seems you are, 6(!)-reports-proof ! 
+<span class="tweet-mention">@IOGP_EU</span>, it seems you are, 6(!)-reports-proof !
 
 Why?👇 <a class="tweet-lnk" href="https://t.co/argVDvKcgy" target="_blank">https://t.co/argVDvKcgy</a> <a class="tweet-lnk" href="https://t.co/6gC7BSIkHk" target="_blank">https://t.co/6gC7BSIkHk</a>
 
@@ -52,11 +52,11 @@ Another recent report of <span class="tweet-mention">@BNPParibas</span> [<a clas
 
 <img class='twimg' style='max-width: 60%' src='http://pbs.twimg.com/media/EEBuNBYXUAA67Fe.jpg'/>
 
-"The economics of renewables are impossible for oil to compete with when looked at over the cycle. We calculate that to get the same amount of mobility from gasoline as from new renewables with EVs over the next 25 years would cost 6.2-7x more" 
+"The economics of renewables are impossible for oil to compete with when looked at over the cycle. We calculate that to get the same amount of mobility from gasoline as from new renewables with EVs over the next 25 years would cost 6.2-7x more"
 
 <a class="tweet-lnk" href="https://t.co/FBrba6VA9c" target="_blank">https://t.co/FBrba6VA9c</a>
 
-"even if we add in the cost of building new network infrastructure to cope with all the new wind and/or solar capacity  implied  by  replacing  gasoline  with  renewables  and  EVs,  the  economics  of  renewables  still  crush those of oil" 
+"even if we add in the cost of building new network infrastructure to cope with all the new wind and/or solar capacity  implied  by  replacing  gasoline  with  renewables  and  EVs,  the  economics  of  renewables  still  crush those of oil"
 
 <a class="tweet-lnk" href="https://t.co/G7RzyP774h" target="_blank">https://t.co/G7RzyP774h</a>
 
@@ -84,7 +84,7 @@ Despite this, "not a single EU member state has so far spelled out a comprehensi
 
 <img class='twimg' style='max-width: 60%' src='http://pbs.twimg.com/media/EEBuO4DWwAAtVoE.jpg'/>
 
-# ODI, CAN International report : Transport sector received 44 % of total fossil energy government support 
+# ODI, CAN International report : Transport sector received 44 % of total fossil energy government support
 "The transport sector received 44% of the total government support identified, including tax breaks to reduce the price of diesel, according to an earlier analysis by the <span class="tweet-mention">@ODIdev</span> and <span class="tweet-mention">@CANIntl</span> <span class="tweet-mention">@MaeveMcLynn</span> <span class="tweet-mention">@LaurievdBurg</span> <span class="tweet-mention">@LeahWorrall</span> <span class="tweet-mention">@shelaghwhitley</span> (2017)" <a class="tweet-lnk" href="https://t.co/xpNtlooOpn" target="_blank">https://t.co/xpNtlooOpn</a> <a class="tweet-lnk" href="https://t.co/IM1KGmuZdb" target="_blank">https://t.co/IM1KGmuZdb</a>
 
 <img class='twimg' style='max-width: 60%' src='http://pbs.twimg.com/media/EEBuPcUXYAE4Lgw.jpg'/>

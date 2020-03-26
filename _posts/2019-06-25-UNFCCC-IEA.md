@@ -2,10 +2,10 @@
 layout: post
 title: "UNFCCC & IEA Bonn Climate Change Conference - Side Event on Energy Data For Climate Policy"
 date: 2019-06-25
-tags: [twitter-thread, EN]
+tags: [twitter-thread, event-notes, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2IZNC0O" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2IZNC0O" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
@@ -19,7 +19,6 @@ Read on Twitter: <a href="http://bit.ly/2IZNC0O" target="_blank"><i class="fab f
 <img class='twimg' style='max-width: 100%' src='http://pbs.twimg.com/media/D951APHXkAAqk_k.jpg'/>
 
 # Donald Cooper - UNFCCC
-
 
 Donald Cooper from <span class="tweet-mention">@UNFCCC</span> outlined the importance of data for climate and energy policy, and pointed at the strength of cooperation between the Parties, <span class="tweet-mention">@UNFCCC</span> and <span class="tweet-mention">@IEA</span>
 
@@ -219,7 +218,7 @@ Conclusions : high-quality statistics are foundation of tracking progress toward
 
 <img class='twimg' style='max-width: 100%' src='http://pbs.twimg.com/media/D96SA3tXsAAyvQN.jpg'/>
 
-# Questions 
+# Questions
 
 ## Q1 : What does the SDS scenario contain?
 <span class="tweet-mention">@IEA</span> (Andrew) : It is a well below 2 C scanario, based on IPCC scenarios, for the next 20 years (of course, after 2040 is equally important).

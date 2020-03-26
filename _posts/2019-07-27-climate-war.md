@@ -2,17 +2,17 @@
 layout: post
 title: "\"Waging war\" on Climate Change ?"
 date: 2019-07-27
-tags: [twitter-thread, EN]
+tags: [twitter-thread, report-summary, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2GvqRjw" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2GvqRjw" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
 {:toc}
 -----
 
-"Waging war" on Climate Change ? 
+"Waging war" on Climate Change ?
 
 'To what extent should we be talking like this?'
 'Can the war years provide any lessons on how to deal with environmental challenges?'
@@ -67,7 +67,7 @@ UK : <span class="tweet-mention">@theCCCuk</span> called last week for "new stru
 
 this "would be needed to overcome obstructive deficits in cross-departmental coordination and collaboration"
 
-"It suggests, for example, a ‘Climate Cabinet’, chaired by the Prime Minister <span class="tweet-mention">@10DowningStreet</span> and including the Chancellor of the Exchequer and relevant Secretaries of State, with “transparent public reporting of progress and plans” 
+"It suggests, for example, a ‘Climate Cabinet’, chaired by the Prime Minister <span class="tweet-mention">@10DowningStreet</span> and including the Chancellor of the Exchequer and relevant Secretaries of State, with “transparent public reporting of progress and plans”
 
 <span class="tweet-mention">@openmod</span> <span class="tweet-mention">@TheIIOA</span> <span class="tweet-mention">@dr_anneowen</span> <span class="tweet-mention">@indecol</span>
 
@@ -78,14 +78,14 @@ this "would be needed to overcome obstructive deficits in cross-departmental coo
 
 💡watching out for international risks of <span class="tweet-hashtag">#ISIDS</span> for climate policy <a class="tweet-lnk" href="https://t.co/qLWOPUSUu8" target="_blank">https://t.co/qLWOPUSUu8</a> <span class="tweet-mention">@KylaTienhaara</span>
 
-💡reflecting on the communication of <span class="tweet-hashtag">#Science</span> <span class="tweet-hashtag">#IPCC</span> <span class="tweet-mention">@IPCC_CH</span> in the political debate <a class="tweet-lnk" href="https://t.co/aNRWP7UU75" target="_blank">https://t.co/aNRWP7UU75</a> <span class="tweet-mention">@DoctorVive</span> <span class="tweet-mention">@Oliver_Geden</span> 
+💡reflecting on the communication of <span class="tweet-hashtag">#Science</span> <span class="tweet-hashtag">#IPCC</span> <span class="tweet-mention">@IPCC_CH</span> in the political debate <a class="tweet-lnk" href="https://t.co/aNRWP7UU75" target="_blank">https://t.co/aNRWP7UU75</a> <span class="tweet-mention">@DoctorVive</span> <span class="tweet-mention">@Oliver_Geden</span>
 
 💡combatting fake news / scientific denial <a class="tweet-lnk" href="https://t.co/k51wtpzU36" target="_blank">https://t.co/k51wtpzU36</a> <span class="tweet-mention">@KarlMathiesen</span> <span class="tweet-mention">@ClimateHome</span> <span class="tweet-mention">@CarbonBrief</span> <span class="tweet-mention">@ed_hawkins</span> <span class="tweet-mention">@MichaelEMann</span> <span class="tweet-mention">@sabbanms</span>
 
 💡considering bold and innovative - or old? - policies :
 
 * Supply-side climate treaty : <a class="tweet-lnk" href="https://t.co/xbIKxDt2B5" target="_blank">https://t.co/xbIKxDt2B5</a> and <a class="tweet-lnk" href="https://t.co/nYU5muBZ1L" target="_blank">https://t.co/nYU5muBZ1L</a>
-* Personal carbon quota systems : <a class="tweet-lnk" href="https://t.co/RCJvXHnwK8" target="_blank">https://t.co/RCJvXHnwK8</a> <span class="tweet-mention">@CommonsEAC</span> 
+* Personal carbon quota systems : <a class="tweet-lnk" href="https://t.co/RCJvXHnwK8" target="_blank">https://t.co/RCJvXHnwK8</a> <span class="tweet-mention">@CommonsEAC</span>
 * ...
 
 💡using qualitative physical flow and stock data + increasing institutional effort to collect those
@@ -95,5 +95,3 @@ this "would be needed to overcome obstructive deficits in cross-departmental coo
 <span class="tweet-mention">@openmod</span> <span class="tweet-mention">@openclimatedata</span> <span class="tweet-mention">@CopernicusECMWF</span> <span class="tweet-mention">@CopernicusEU</span> <span class="tweet-mention">@CopernicusEMS</span> <span class="tweet-mention">@indecol</span> <span class="tweet-mention">@ISIEYale</span> <span class="tweet-mention">@isie_sem</span> <span class="tweet-mention">@UNStats</span>
 
 💡See also a summary of the <span class="tweet-hashtag">#IIOA2019</span> <span class="tweet-mention">@TheIIOA</span>  climate transition debate on data collection policies : <a class="tweet-lnk" href="https://t.co/vXDHDb9bH9" target="_blank">https://t.co/vXDHDb9bH9</a>
-
-

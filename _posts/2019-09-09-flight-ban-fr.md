@@ -2,10 +2,10 @@
 layout: post
 title: "Interdiction des vols en Flandre: contexte législatif, contexte français et fiscalité européenne"
 date: 2019-09-09
-tags: [twitter-thread, FR]
+tags: [twitter-thread, news, FR]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2LDFWRP" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2LDFWRP" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
@@ -36,7 +36,7 @@ Proposition de 23 Octobre 2017 [<a class="tweet-lnk" href="https://t.co/Q0Cg7OED
 - il n'y a pas d'initiatives pour compenser les émissions des vols au niveau gouvernemental
 - La Résolution climatologique flamande souligne que le gouvernement veut montrer l'exemple
 
-Donc appelle a montrer l'exemple : 
+Donc appelle a montrer l'exemple :
 
 - réduire les émissions en privilégiant les technologies de communication modernes
 - optez systématiquement pour les voyages en train vers des destinations accessibles en moins de 6 heures / 500 km
@@ -48,7 +48,7 @@ Suivi en mars 2019 [<a class="tweet-lnk" href="https://t.co/cLTO1Efw5l]" target=
 
 # Fiscalité Francais et Européen
 
-Voir l'article de Jean Sivardière <span class="tweet-mention">@FNAUT_fr</span> <span class="tweet-mention">@Reporterre</span> 
+Voir l'article de Jean Sivardière <span class="tweet-mention">@FNAUT_fr</span> <span class="tweet-mention">@Reporterre</span>
 <a class="tweet-lnk" href="https://t.co/JTF5x29TVu" target="_blank">https://t.co/JTF5x29TVu</a>
 
 “Au total, les aides publiques au transport aérien intérieur atteignent 500 millions d’euros par an, soit 18,5 euros par passager par an”
@@ -83,7 +83,3 @@ Les marchés/certificats verts/compensations ne fonctionnent pas (pour le moment
 <span class="tweet-mention">@cmoreldarleux</span> <span class="tweet-mention">@PrudhommeLoic</span> <span class="tweet-mention">@delphinebatho</span> <span class="tweet-mention">@Francois_Ruffin</span> <span class="tweet-mention">@yjadot</span>, ou on est avec :
 
 <a class="tweet-lnk" href="https://t.co/1IqvLV451e" target="_blank">https://t.co/1IqvLV451e</a> ?
-
-
-
-

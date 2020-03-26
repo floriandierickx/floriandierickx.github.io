@@ -2,10 +2,10 @@
 layout: post
 title: "Monetary Valuation of Climate Impacts and the European Investment Bank's Energy Policy"
 date: 2019-09-24
-tags: [twitter-thread, EN]
+tags: [twitter-thread, report-summary, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2mqbEt4" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2mqbEt4" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
@@ -69,11 +69,11 @@ Climate impacts should not be monetized to start with. This is an existential pr
 
 <span class="tweet-mention">@ProfSteveKeen</span> <span class="tweet-mention">@blair_fix</span> <span class="tweet-mention">@MaxJerneck</span> <span class="tweet-mention">@gwcarpenter</span> <span class="tweet-mention">@delbeke_jos</span> @noahq <span class="tweet-mention">@JesseJenkins</span> <span class="tweet-mention">@AarneGranlund</span>
 
-## Monetizing long-term climate impacts is almost impossible, and holds enormous uncertainties. 
+## Monetizing long-term climate impacts is almost impossible, and holds enormous uncertainties.
 
 *mainstream* economic research does not account for this, and doesn't acknowledge this sufficiently
 
-<span class="tweet-mention">@RichardTol</span> 
+<span class="tweet-mention">@RichardTol</span>
 
 <a class="tweet-lnk" href="https://t.co/W8AHzM6AZI" target="_blank">https://t.co/W8AHzM6AZI</a>
 
@@ -116,7 +116,7 @@ This seems a very slippy ground. <span class="tweet-mention">@EIB</span> admits 
 
 "it does this based on a range of forecasts from specialized consultancies and scenarios from relevant bodies"
 
-"The bank does not make those public" 
+"The bank does not make those public"
 
 Why?
 
@@ -131,7 +131,7 @@ Summary: <a class="tweet-lnk" href="https://t.co/tYpUHC6TlX" target="_blank">htt
 ## (2) Carbon capture and storage <span class="tweet-hashtag">#CCS</span> is *not* a miracle solution (although good to deploy, we will need it)
 
 <span class="tweet-mention">@baeckelmans</span> <span class="tweet-mention">@snam</span> <span class="tweet-mention">@exxonmobil</span> <span class="tweet-mention">@Shell</span>
- 
+
 Summary thread <span class="tweet-mention">@SimonLLewis</span> <span class="tweet-mention">@guardian</span> &amp; <span class="tweet-mention">@DrSimEvans</span> <span class="tweet-mention">@CarbonBrief</span> : <a class="tweet-lnk" href="https://t.co/VehFmfyeca" target="_blank">https://t.co/VehFmfyeca</a>
 
 ## (3) Planting trees on the scale that was recently argued to be used as a tool for climate mitigation, is neither a solution (although nevertheless, good to take care of that as well)
@@ -148,7 +148,7 @@ Summary thread <span class="tweet-mention">@KarstenCapion</span>  : <a class="tw
 
 <span class="tweet-mention">@nworbmot</span>
 
-## (5) In addition to unclear <span class="tweet-mention">@EIB</span> subsidy rules based on monetary values of climate change, there is the problem of subsidizing fossil fuel-dependent sectors : 
+## (5) In addition to unclear <span class="tweet-mention">@EIB</span> subsidy rules based on monetary values of climate change, there is the problem of subsidizing fossil fuel-dependent sectors :
 
 Summary thread of 6 recent reports : <a class="tweet-lnk" href="https://t.co/lClHFTCDmQ" target="_blank">https://t.co/lClHFTCDmQ</a>
 
@@ -164,5 +164,3 @@ Ongoing implementation of <span class="tweet-mention">@icao</span> Corsia offset
 Based on <span class="tweet-mention">@EUCouncilPress</span> <span class="tweet-mention">@Transport_EU</span> docs, it does not seem that member states realize this.
 
 Pre-debate thread: <a class="tweet-lnk" href="https://t.co/YIwBknAtJf" target="_blank">https://t.co/YIwBknAtJf</a>
-
-

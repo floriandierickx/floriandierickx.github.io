@@ -2,7 +2,7 @@
 layout: post
 title: "Count On Cooling Launch Event Webinar – Sustainable cooling, an enabler for a carbon neutral Europe"
 date: 2020-03-24
-tags: [twitter-thread, EN]
+tags: [twitter-thread, event-notes, EN]
 ---
 
 Read on Twitter: <a href="https://bit.ly/2QIeLZG" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>

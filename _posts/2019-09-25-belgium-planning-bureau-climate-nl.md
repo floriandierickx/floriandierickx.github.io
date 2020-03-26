@@ -2,10 +2,10 @@
 layout: post
 title: "Recent rapport Federaal Planbureau bewijst nood aan een sociaal rechtvaardig klimaatbeleid"
 date: 2019-09-25
-tags: [twitter-thread, NL]
+tags: [twitter-thread, report-summary, commentary, NL]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2lv5wQ0" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2lv5wQ0" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)

@@ -2,17 +2,17 @@
 layout: post
 title: "Report Belgian Federal Planning Bureau proves the need for a just and fair climate transition"
 date: 2019-09-25
-tags: [twitter-thread, EN]
+tags: [twitter-thread, report-summary, commentary, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2mV15hF" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2mV15hF" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 * Do not remove this line (it will not be displayed)
 {:toc}
 -----
 
-Recent report Belgian Planning Bureau <span class="tweet-mention">@FPB_BE</span> <span class="tweet-mention">@BFP_BE</span> <span class="tweet-mention">@josefine_v</span> <span class="tweet-mention">@TimGoedeme</span> [<a class="tweet-lnk" href="https://t.co/84rWkZmCdU]" target="_blank">https://t.co/84rWkZmCdU]</a> prooves need for a just and fair climate policy 
+Recent report Belgian Planning Bureau <span class="tweet-mention">@FPB_BE</span> <span class="tweet-mention">@BFP_BE</span> <span class="tweet-mention">@josefine_v</span> <span class="tweet-mention">@TimGoedeme</span> [<a class="tweet-lnk" href="https://t.co/84rWkZmCdU]" target="_blank">https://t.co/84rWkZmCdU]</a> prooves need for a just and fair climate policy
 
 * Food/transport/housing largest impact
 * Impact ↗️ with age, education, income
@@ -100,7 +100,7 @@ No multi-regional model, as most detailed only has 162 industries.
 
 ## Conclusion 1 : pollution per household increases considerably with income
 
-* Energy/housing +- constant 
+* Energy/housing +- constant
 * Mainly increase in goods, services and transport
 * HH in poverty pollute less <a class="tweet-lnk" href="https://t.co/Vr1CFXNMva" target="_blank">https://t.co/Vr1CFXNMva</a>
 
