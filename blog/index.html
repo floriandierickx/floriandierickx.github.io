@@ -9,7 +9,7 @@ title: Blog
 		/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 	</style>
-	
+
 	<div id="mc_embed_signup">
 	<form action="https://gmail.us3.list-manage.com/subscribe/post?u=c57c7587a59a93583748d34e7&amp;id=dd187645df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	    <div id="mc_embed_signup_scroll">
@@ -26,9 +26,9 @@ title: Blog
 	<h1><a href="http://floriandierickx.github.io/feed.xml"><i class="fas fa-rss-square" style="color:darkgreen"></i></a> {{ page.title }}</h1>
 	<ul class="posts">
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » {% for tag in post.tags %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> {% for tag in post.tags %}
 		 <a class="tag" href="/blog/tags/#{{ tag | slugify }}"><i class="fas fa-tag fa-xs"></i> {{ tag }}</a>
-	 {% endfor %}<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	 {% endfor %}
 		</li>
 	  {% endfor %}
 	</ul>

@@ -2,10 +2,10 @@
 layout: post
 title: "Quantitative Easing for the Climate"
 date: 2019-02-27
-tags: [twitter-thread, EN]
+tags: [twitter-thread, report-summary, EN]
 ---
 
-Read on Twitter: <a href="http://bit.ly/2J0Hwx8" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a> 
+Read on Twitter: <a href="http://bit.ly/2J0Hwx8" target="_blank"><i class="fab fa-twitter-square fa-1x" title="twitter-thread"></i></a>
 
 -----
 
@@ -52,6 +52,3 @@ Short answer: fully https://t.co/tKJu2G349G
 [12] Given the gap between investments needed to accomplish the #ParisAgreement goals, it seems a good idea to bring efforts and voices together to raise the ambition/investment!
 
 https://t.co/rWxdL04mcd
-
-
-
