@@ -1,0 +1,24 @@
+--- 
+layout: default 
+title: UNFCCC Sunburst Graph 
+---
+
+<div class="container">
+	<div class="blurb">
+		<h1>
+			UNFCCC Emission Inventory Sunburst Graph
+		</h1>
+ 	    <p><a href="https://zf04d.csb.app/" target="_blank">External link to UNFCCC sunburst graph (Belgium, 2020 emission data for the year 2018)</a>. The application in development can be found on <a href="https://github.com/floriandierickx/unfccc-crf-angular" target="_blank">GitHub</a>.
+        </p>
+	</div><!-- /.blurb -->
+	<table id="pubTable" class="display"></table>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+	<script type="text/javascript" src="../build/bib-list.js"></script> 
+	<script type="text/javascript">
+	$(document).ready(function() {
+	  	bibtexify("empty.bib", "pubTable", {'tweet': 'FlorianDRX'});
+	});
+	</script>
+	<br>
+</div>
+

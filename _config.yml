@@ -59,3 +59,5 @@ navigation:
   first-level:
     - text: Literature
       url: /emission-budget/literature/index.html
+- root: UNFCCC Sunburst
+  url: /unfccc-sunburst
